@@ -91,6 +91,15 @@ nav {
     border-bottom: 4px solid #d17700;
     
 }
+.imgVader{
+    
+    width: 100%;
+    padding: 0px 43% 0px 43%;
+    margin: 40px 0px 40px 0px;
+    float: left;
+    text-align: center;
+    border-radius: 100%;
+}
 
 .aboutMe p {
     text-align: left;
@@ -112,14 +121,31 @@ nav {
     margin-right: 14px;
     margin-left: 14px;
 }
+
+
 /*---------Что я умею-------------*/
 .mySkills {
     margin-top: 58px;
     width: 100%;
     float: left;
-
+    background: url(../images/back_skills.jpg);
+}
+.mySkills h2 {
+    text-align: center;
+    display:inline-block;
+    margin: 0px 40% 0px 40%;  /*Костыль*/
+    position: relative;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+    border-bottom: 4px solid #d17700;
 }
 
+.firstSkill {
+    display: inline-block;
+    position: relative;
+}
 
 /*--------------Кейсы-----------------*/
 

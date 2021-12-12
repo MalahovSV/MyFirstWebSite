@@ -4,27 +4,30 @@ body{
 
 nav {
     width: 100%;
-    height: 60px;
+    height: 100%;
     background:#344051;
-
 }
 
 .logo {
+    position: relative;
+    display: inline-block;
     margin-top: 15px;
     color: white;
     font-size: 29px;
     line-height: 60xp;
     padding-left: 20%;
-    float: left;
+    
 }
 
 .menu {
-    float: left;
-    padding-left: 20%;
+    position: relative;
+    display:inline-block;
+    margin-left: 10%;
 }
 
 .menu li {
-    float: left;
+    position: relative;
+    display: inline;
     line-height: 60px;
     color: white;
     margin-right: 40px;
@@ -32,35 +35,47 @@ nav {
     text-transform: uppercase;
 }
 
-.main{
+
+
+.helloPage{
     width: 100%;
     height: 100%;
-    background: url(../images/vader.png) 100% 100%/auto 75% no-repeat, url(../images/back-ground-title.jpg) center/cover no-repeat ;
+    background: url(../images/vader.png) 100% 100%/auto 70% no-repeat, url(../images/back-ground-title.jpg) center/cover no-repeat ;
     box-shadow: 1px -10px 10px 1px rgba(0, 0, 0, 0.4) inset; 
-
+    position:relative;
+    display: block;
+    border: 0px solid  rgba(255, 255, 255, 0);
 }
 
 .titleConteiner{
-    float: left;
-    margin: 15% 0px 0px 15%;
+    position: relative;
+    display: block;
+    padding-top: 25%;
+    margin: 0% 40% 0px 5%;
     color: #2c384a;
     text-shadow: rgb(138, 138, 138) 1px 1px 10px;
+    text-align: center;
 }
 
 
 .titleConteiner h1{
     font-size: 60px;
+    position: relative;
+    display: block;
     font-weight: bold;
 }
 
 .titleConteiner h4{
-    font-size: 30px;
-    font-weight: 30px;
+    font-size: 24px;
+    font-weight: 24px;
+    margin-top: 4%;
     color: #79819d;
     text-shadow: rgb(138, 138, 138) 1px 1px 10px;
 }
 
 .titleConteiner input {
+    position: relative;
+    display: inline-block;
     height: 40px;
     text-align: center;
     border: 2px solid #6d7682;
@@ -72,14 +87,16 @@ nav {
     margin-top: 58px;
     margin-right: 14px;
     margin-left: 14px;
-    margin-bottom: 600px;
 }
 
 /*-------Обо мне--------*/
 .aboutMe{
+    padding-top: 5%;
     float: left;
     width: 100%;
     text-align: center;
+    display: block;
+    position: relative;
 }
 
 .aboutMe h2 {
@@ -125,15 +142,23 @@ nav {
 
 /*---------Что я умею-------------*/
 .mySkills {
-    margin-top: 58px;
+    margin-top: 5%;
+    padding: 3%;
     width: 100%;
     float: left;
-    background: url(../images/back_skills.jpg);
+    display: block;
+    position: relative;
+    
+
+    background: url(../images/back_skills.jpg) center/cover no-repeat;
+    
 }
+
 .mySkills h2 {
+    
+    display:block;
     text-align: center;
-    display:inline-block;
-    margin: 0px 40% 0px 40%;  /*Костыль*/
+    margin: 0px 43%;
     position: relative;
     font-size: 24px;
     text-transform: uppercase;
@@ -141,12 +166,112 @@ nav {
     font-weight: bold;
     border-bottom: 4px solid #d17700;
 }
+/*
+3 блока 16% (45)
+между ними 3%  (6)
+слева справа 23% (46)
+
+*/
+.skillsPanels{
+    display: block;
+    position: relative;
+    margin: 0 15%;
+    font-size: 14px;
+    margin-top: 3%;
+}
+
+
+.firstImg{
+    height: 50px;
+    margin-bottom: 12%;
+    
+}
 
 .firstSkill {
     display: inline-block;
     position: relative;
+    width: 16%;
+    text-align: center;
+    margin-left: 23%;
+    margin-right: 3%;
+    
+
+    height:200px;
 }
 
+.headerFirstSkill{
+    display: block;
+    padding: 10px 0;
+    height: 30%;
+    position: relative;
+    color: #d17700;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.aboutFirstSkill{
+    position: relative;
+    display: block;
+}
+
+.secondSkill {
+    display: inline-block;
+    position: relative;
+    width: 16%;
+    text-align: center;
+    
+    height:200px;
+}
+
+.secondImg{
+    height: 50px;
+    margin-bottom: 12%;
+}
+
+.headerSecondSkill{
+    display: block;
+    padding: 10px 0;
+    height: 30%;
+    color: #d17700;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.aboutSecondSkill{
+    display: block;
+}
+
+.thirdSkill{
+    display: inline-block;
+    position: absolute;
+    width: 16%;
+    text-align: center;
+    margin-right:23%;
+    margin-left:3%;
+    
+    height:200px;
+}
+
+.thirdImg{
+    height: 50px;
+    margin-bottom: 12%;
+}
+
+.headerThirdSkill{
+    height: 30%;
+    padding: 10px 0;
+    display: block;
+    color: #d17700;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.aboutThirdSkill {
+    display: block;
+    
+    
+}
 /*--------------Кейсы-----------------*/
 
 .cases {

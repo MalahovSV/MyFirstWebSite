@@ -63,60 +63,81 @@
                     </div>
             </div>
             <div class="cases">
+                <h1>CASES</h1>
+                <div class="casesItIs">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui consequuntur asperiores maxime. Debitis, fugit perspiciatis fuga magnam omnis, vero quam quibusdam molestiae aperiam saepe libero delectus nulla repellat assumenda illo.</p>
+                </div>
                 <div class="thatCases">
                     <!--Кнопки пролистывания кейсов-->
-                    <form action="#" name="swithesCases">
-                        <input type="submit" value="&lt;">
-                        <input type="submit" value="&gt;">
-                    </form>
-                    <div class="client">
-                        <div class="clientText"><p>CLIENT:</p></div>
-                        <div class="nameClient"><p>name_client</p></div>
+                    <div class="casesView">
+                        <img src="images/шаблон.jpg" height="500px" class="imgPatternSite">
+                    
+                        <form action="#" name="swithesCases">
+                            <input type="submit" value="&lt;" class="backButton">
+                            <input type="submit" value="&gt;" class="nextButton">
+                        </form>
                     </div>
-                    <div class="websiteAddress">
-                        <div class="addressText"><p>WEBSITE:</p></div>
-                        <div class="address"><p>link_website</p></div>
-                    </div>
-                    <div class="aboutWebsite">
-                        <p>about_website</p>
+                    <div class="aboutPattern">
+                        <div class="client">
+                            <div class="clientText"><p>CLIENT:</p></div>
+                            <div class="nameClient"><p>name_client</p></div>
+                        </div>
+                        <div class="websiteAddress">
+                            <div class="addressText"><p>WEBSITE:</p></div>
+                            <div class="address"><p>link_website</p></div>
+                        </div>
+                        
+                        <div class="aboutWebsite">
+                            <h4>Название проекта</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem hic ex repellendus error, perspiciatis quae magnam fuga commodi quia voluptatibus dolores maiores illo veniam, nisi est nam officiis distinctio delectus.</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="calculateCost">
                 <h2>Расчет стоимости</h2>
                 <form action="#">
-                    <p>Тип сайта</p>
+                    <p class="typeSiteHeader">Тип сайта</p>
                     <p>
                         <select name="typeSite">
-                            <option value="null"></option>
+                            <option selected disabled>Выберите тип сайта</option>
+                            
                             <option value="site1">Интернет-магазин</option>
                             <option value="site2">Сайт-визитка</option>
                             <option value="site3">Блог</option>
                         </select> 
                     </p>
-                    <p>Дизайн</p>
+                    <p class="designHeader">Дизайн</p>
                     <p>
                         <select name="designSite">
-                            <option value="null"></option>
+                            <option selected disabled>Выберите дизайн сайта</option>
                             <option value="design1">Минимализм</option>
                             <option value="design2">Корпоративный</option>
                             <option value="design3">METRO</option>
                         </select> 
                     </p>
-                    <p>Адаптивность</p>
+                    <p class="adaptabilityHeader">Адаптивность</p>
                     <p>
                         <select name="adaptabilitySite">
-                            <option value="null"></option>
+                            <option selected disabled>Выберите адаптивность сайта</option>
                             <option value="adaptability1">PC</option>
                             <option value="adaptability2">Mobile</option>
                             <option value="adaptability3">PC/Mobile</option>
                         </select> 
                     </p>
                 </form>
-                <div class="textTiming"><p>Сроки: </p></div>
-                <div class="timing"><p>0</p></div>
-                <div class="textCost"><p>Стоимость: </p></div>
-                <div class="cost"><p>0</p></div>
+                <br>
+                
+                <hr color="#eeeeee" size="5">
+                <div class="deadlines">
+                    <div class="textDeadlines"><p>Сроки: </p></div>
+                    <div class="deadlinesValue"><p>0</p></div>
+                </div>
+
+                <div class="price">
+                    <div class="textPrice"><p>Стоимость: </p></div>
+                    <div class="priceValue"><p>0</p></div>
+                </div>
             </div>
 
             <div class="statistic">

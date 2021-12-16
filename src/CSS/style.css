@@ -279,10 +279,190 @@ nav {
     width: 100%;
     float: left;
 }
+
+.cases h1 {
+
+    display:block;
+    text-align: center;
+    margin: 0px 43%;
+    position: relative;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 0px 0px 10px 0px;
+    font-weight: bold;
+    border-bottom: 4px solid #d17700;
+
+}
+.casesItIs {
+    text-align: left;
+    padding: 0px 25% 0px 25%;
+    margin: 30px 0px 30px 0px;
+    font-size: 14px;
+}
+
+
+.casesView{
+    padding: 10px auto;
+    display: block;
+    position: relative;
+    
+    height: 510px;
+}
+
+
+.imgPatternSite{
+    position: absolute;
+    
+    text-align: center;
+    z-index: 1;
+    margin: auto 30%;
+    
+}
+.backButton{
+    
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 30%;
+    z-index: 3;
+    color: white;
+    text-decoration: none;
+    padding: .7em 1em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    font-size: 20px;
+}
+.nextButton{
+    margin-top: 13%;
+    margin-left: 68%;
+    position:absolute;
+    z-index: 3;
+    color: white;
+    text-decoration: none;
+    padding: .7em 1em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FDBE33 #000 #D77206;
+    border-radius: 6px;
+    background: linear-gradient(#F3AE0F, #E38916) #E38916;
+    transition: 0.2s;
+    font-size: 20px;
+}
+
+.aboutPattern{
+    
+    position: relative;
+    
+    height: 100px;
+}
+
+.client {
+    margin-top: 2%;
+    margin-left: 30%;
+    
+    position: absolute;
+}
+.websiteAddress{
+    margin-left: 30%;
+    
+    position: absolute;
+}
+
+.aboutWebsite{
+    
+    margin-left: 40%;
+    width: 30%;
+    position: absolute;
+}
+
+.aboutWebsite h4{
+    font-weight: bold;
+}
+
+
+
+/*Расчет стоимости*/
 .calculateCost{
     margin-top: 58px;
     width: 100%;
     float: left;
+    display: block;
+    position: relative;
+    
+    width: 40%;
+    margin: 1% 30%;
+}
+
+
+.calculateCost select {
+    
+    width: 100%;
+    font-size: 18px;
+    height: 35px;
+    
+    background: #eeeeee;
+    border-radius: 5px;
+}
+.calculateCost h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.typeSiteHeader{
+    margin: 3% 0 5px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.designHeader{
+    font-size: 20px;
+    margin: 3% 0 5px 0;
+    text-transform: uppercase;
+}
+
+.adaptabilityHeader{
+    font-size: 20px;
+    margin: 3% 0 5px 0;
+    text-transform: uppercase;
+}
+
+.deadlines{
+    margin-top: 10px;
+    position: relative;
+    display: block;
+    height: 30px;
+}
+
+.textDeadlines{
+    position: absolute;
+    
+}
+
+.deadlinesValue{
+    position: absolute;
+width: 100%;
+text-align: right;
+}
+.price{
+    position: relative;
+    display: block;
+    height: 30px;
+}
+
+.textPrice{
+    position: absolute;
+}
+
+.priceValue{
+    position: absolute;
+    width: 100%;
+    text-align: right;
 }
 
 .statistic{
